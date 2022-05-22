@@ -1,0 +1,23 @@
+I/P: RIGHT ANGLE TRIANGLE PATTERN USING "01" AND LOOPS IN C:
+
+#include <stdio.h>
+void main()
+{
+   int i,j,rows;
+   printf("Input number of rows : ");
+   scanf("%d",&rows);
+   for(i=1;i<=rows;i++)
+   {
+	for(j=1;j<=i;j++)
+	   printf("01 ");
+	printf("\n");
+   }
+}
+
+O/P: 
+      Input number of rows : 5
+      01 
+      01 01 
+      01 01 01 
+      01 01 01 01 
+      01 01 01 01 01 
